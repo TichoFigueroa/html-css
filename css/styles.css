@@ -1,0 +1,221 @@
+:root {
+    --primary-color: #eb0029;
+    --font-size: 1.8rem;
+    --header-size: 4rem;
+    
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    --font-family: 'Roboto', sans-serif;
+}
+/* styles.css */
+header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+form {
+    display: block;
+    text-align: center;
+    width: 33%;
+}
+
+footer .p {
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    margin: 0 auto;
+    padding: 0 20px;
+     width: 100%; 
+}
+a {
+    text-decoration: none;
+    margin: 16px;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+button {
+    height: 3rem;
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:5rem;
+    width: 10rem;
+}
+h2 {
+    font-family: var(--font-family);
+    font-weight: bolder;
+    font-size: 1.8rem;
+    margin: 16px;
+    padding: 16px;
+}
+p {
+    font-size: 1.8rem;
+}
+h3 {
+    font-family: var(--font-family);
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+label {
+    font-family: var(--font-family);
+    font-size: 1.8rem;
+}
+ul li p {
+    font-family: var(--font-family);
+    font-size: 1.8rem;
+}
+section p {
+    font-family: var(--font-family);
+    font-size: 1.8rem;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 20vh;
+    width: 100%;  
+}
+.roles {
+    flex: 1;
+    font-family: var(--font-family);
+    list-style: none;
+    display: block;
+    width: 30%;
+    height: 200px;
+    margin: 16px;
+}
+.roles div {
+    
+    display: block;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 16px;
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+}
+.roles div li {
+    list-style-position: center;
+}
+.titulo {
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.text {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#sec {
+    font-family: var(--font-family);
+    font-size: 2.5rem;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+p .dec1 {
+    background-color: orangered;
+}
+.sm {
+    height: 30%;
+}
+.filter {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-size: 1.8rem;
+}
+.navbar {
+    display: flex;
+}
+.navbar li {
+    list-style: none;
+    margin: 1.5rem;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.navbar li a:hover {
+    padding: 5px 10px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.logo {
+    width: 300px;
+    margin: 24px;
+}
+.job-list {
+    display: block;
+    flex: 1;
+    margin-right: 16px;
+}
+.job-details {
+    width: 40%;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.seleccion {
+    width: 30%;
+    justify-content: space-between;
+}
+.filter {
+    width: 100%;
+    margin: 16px;
+}
+#footimage {
+    width: 300px;
+    margin: 24px;
+}
+#logoh {
+    width: 300px;
+    margin: 24px;
+    padding: 16px;
+}
+#catego li{
+    text-decoration: none;
+    list-style: none;
+    border: solid 2px black;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 10px;
+}
+#div label {
+    font-family: var(--font-family);
+}
+#social {
+    height: 4rem;
+    margin: 16px 32px 16px 16px;  
+}

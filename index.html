@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleos en Banorte</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <picture id="logoh" class="logo">
+                <img src="./imagenes/logotipo.svg" alt="logotipo banorte">
+            </picture>
+            <ul class="navbar">
+                <li><a id="menu" href="#">Inicio</a></li>
+                <li><a id="menu" href="#">Perfil</a></li>
+                <li><a id="menu" href="#">Mensajes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seleccion">
+            <h2>Filtros</h2>
+            <form>
+                <div class="filter">
+                    <label for="categoria">Categoría:</label>
+                    <select id="categoria" name="categoria">
+                        <option value="auditoria">Auditoria</option>
+                        <option value="juridico">Jurídico</option>
+                        <option value="banca_comercial">Banca Comercial/Sucursales</option>
+                        <option value="desarrollo de negocios digitales">Desarrollo de Negocios Digitales</option>
+                        <option value="banca gobierno">Banca Gobierno</option>
+                        <option value="finanzas y operaciones">Finanzas y Operaciondes</option>
+                        <option value="administracion">Administración</option>
+                    </select>
+                </div>
+                <div class="filter">
+                    <label for="fecha">Fecha:</label>
+                    <select id="fecha" name="fecha">
+                        <option value="3-dias">Últimos 3 días</option>
+                        <option value="semana">Última semana</option>
+                        <option value="15-dias">Últimos 15 días</option>
+                    </select>
+                </div>
+                <div class="filter">
+                    <label for="ubicacion">Ubicación:</label>
+                    <select id="ubicacion" name="ubicacion">
+                        <option value="cdmx">Ciudad de México</option>
+                        <option value="estado-mexico">Estado de México</option>
+                        <!-- Agregar más estados aquí -->
+                    </select>
+                </div>
+                <button type="submit">Aplicar Filtros</button>
+            </form>
+            <ul class="roles">
+                <p id="sec">Roles</p>
+                <div>
+                    <p class="dec1"></p>
+                    <li class="titulo">Analísta</li> <br>
+                    <li class="text">involucrado en actividades y retos transaccionales, buscando solucionarlos en periodos cortos de tiempo. Ademas, se necesita se necesita capacidad para escalar y reconocer problemas fuera de su alcance</li>
+                </div>
+                <div>
+                    <p class="dec2"></p>
+                    <li class="titulo">Coordinador</li> <br>
+                    <li class="text">capaz de seleccionar la mejor  alternativa posible de los retos y problemas que se presenten basados en el análissis dentro del marco de su área profesional. se requiere de 1 a 2 años de experiencia</li>
+                </div>
+                <div>
+                    <p class="dec3"></p>
+                    <li class="titulo">Gerente</li> <br>
+                    <li class="text">Especialista en una materia. Interactua con otras áreas para la resolucion de problemas, toma de decisiones técnicas y comtribuye al desarrollo de políticas y procedimientos en su área</li>
+                </div>
+                <div>
+                    <p class="dec4"></p>
+                    <li class="titulo">Subdirector</li> <br>
+                    <li class="text">Brinda asesoría en su materia a otros roles y resuelve problemas que contribuyen al desarrollo de su área. Identifica oportunidades y responsabilidades para capitalizarlas</li>
+                </div>    
+            </ul>
+        </section>
+
+        <section class="job-list">
+            
+            <ul id="catego">
+                <h2>Ofertas Laborales</h2>
+                <li>
+                    <h3>GERENTE AUDITORIA DE TECNOLOGIA</h3>
+                    <p id="req">ID de Requisicion:</p>
+                    <p id="no">108018</p>
+                    <p>Ubicación: Ciudad de México</p>
+                    <p>Fecha de publicación: 2023-09-08</p>
+                </li>
+                <li>
+                    <h3>AUDITOR SENIOR DE MERCADOS T Y R</h3>
+                    <p id="req">ID de Requisicion:</p>
+                    <p id="no">108018</p>
+                    <p>Ubicación: Estado de México</p>
+                    <p>Fecha de publicación: 2023-09-07</p>
+                </li>
+                <li>
+                    <h3>AUDITOR SENIOR DE MERCADOS T Y R</h3>
+                    <p id="req">ID de Requisicion:</p>
+                    <p id="no">108018</p>
+                    <p>Ubicación: Estado de México</p>
+                    <p>Fecha de publicación: 2023-09-07</p>
+                </li>
+                <li>
+                    <h3>AUDITOR SENIOR DE MERCADOS T Y R</h3>
+                    <p id="req">ID de Requisicion:</p>
+                    <p id="no">108018</p>
+                    <p>Ubicación: Estado de México</p>
+                    <p>Fecha de publicación: 2023-09-07</p>
+                </li>
+                <li>
+                    <h3>AUDITOR SENIOR DE MERCADOS T Y R</h3>
+                    <p id="req">ID de Requisicion:</p>
+                    <p id="no">108018</p>
+                    <p>Ubicación: Estado de México</p>
+                    <p>Fecha de publicación: 2023-09-07</p>
+                </li>
+                <!-- Agregar más ofertas laborales aquí -->
+            </ul>
+        </section>
+
+        <section class="job-details">
+            <h2>Detalles del Empleo</h2>
+            <p>En Banorte buscamos talento único, fuerte y extraordinario, que impulse la transformación e innovación del país, convirtiéndonos en un gran aliado para crecer fuerte con México.
+                <br> <br>
+                Estamos convencidos que la combinación de solidaridad, innovación, respeto, lealtad y responsabilidad es la fórmula perfecta para ser el mejor equipo del sector financiero.
+                
+                Objetivo del puesto: <br> <br>
+                
+                 Realizar los trabajos de auditoria de TI correspondientes a procesos de tecnología y revisiones integrales en cumplimiento con el programa anual de trabajo de Auditoría Interna, con la finalidad de validar el soporte tecnológico que se brinda a los sistemas de negocio, en conformidad con las Normas Internacionales para el Ejercicio Profesional de la Auditoría Interna
+                  Cada día te encontrarás ante nuevos e interesantes retos dentro de tu puesto, en los cuales serás responsable de:
+                Ejecutar auditorías integrales en conjunto con auditoría operativa, para verificar el entorno tecnológico que da soporte a los sistemas utilizados en los procesos del negocio.
+                Evaluar que la información generada y procesada cuente con los controles necesarios que aseguren su disponibilidad, integridad y confidencialidad.
+                Auditar los procesos de tecnología para verificar el cumplimiento de las disposiciones regulatorias y mejores prácticas, aplicando modelos de evaluación de riesgos
+                Validar el cumplimiento de la normatividad interna y externa, e identificar áreas de oportunidad para establecer los controles necesarios que permitan mitigar riesgos en los procesos
+                Dar seguimiento a las observaciones que se detecten durante el proceso de revisión, para validar que las medidas correctivas sean las adecuadas para la mitigación de riesgos
+                Realizar pruebas y simulaciones para validar que las medidas y prácticas de seguridad establecidas funcionen apropiadamente y monitorear que sean operadas y mantenidas responsablemente
+                Elaborar y dar mantenimiento continúo a los Modelos de Evaluación de Riesgos de acuerdo con la evolución de la entidad y tecnologías, considerando los elementos generadores de Riesgos y los controles que los mitigan en los procesos y aplicaciones de Tecnología de Información realizando las revisiones en su actualización y aplicación conforme a la normatividad interna y externa aplicable.
+                 <br> <br>
+                
+                Requisitos: <br> <br>
+                
+                Formación profesional: Ingeniería, licenciatura en Tecnología de la información Administración o afín.  
+                Años de experiencia: 2 años
+                Áreas de experiencia: análisis de datos,auditoría interna de instituciones financieras, auditoria de tecnología, áreas centrales y administrativas
+                Conocimientos requeridos: Manejo de MSOFFICE (Word, power point, Excel, Outlook,
+                Competencias: Liderazgo, Productividad, auto desarrollo, planeación, enfoque en el cliente interno, comunicación asertiva, persuasivo,
+                Disponibilidad para viajar: No
+                Disponibilidad para cambio de residencia: No <br> <br>
+                 
+                
+                Haz clic en el botón aplicar y no pierdas la oportunidad de desarrollar todo tu potencial. <br>
+                
+                
+                En Banorte actuamos bajo un principio de igualdad de oportunidades. Por ello no discriminamos por edad, origen étnico, nacionalidad, género, orientación sexual, estado civil, condición social, estado de salud, creencias religiosas, doctrina política o discapacidad</p>
+        </section>
+    </main>
+
+    <footer>
+        <picture>
+            <img id="footimage" src="./imagenes/logotipo.svg" alt="logotipo banorte">
+        </picture>
+        <div>
+            <p><a href="#">Atracción de Talento, Derechos Reservados 2021</a></p>
+            <p><a href="#">Grupo Financiero Banorte </a></p>
+            
+            </div> 
+            <div class="sm">
+                <picture class="social">
+                    <img id="social" src="./imagenes/icons8-instagram.svg" alt="logotipo banorte">
+                </picture>
+                <picture class="social">
+                    <img id="social" src="./imagenes/icons8-linkedin.svg" alt="logotipo banorte">
+                </picture>
+                <picture class="social">
+                    <img id="social" src="./imagenes/icons8-twitter.svg" alt="logotipo banorte">
+                </picture>
+                <picture class="social">
+                    <img id="social" src="./imagenes/icons8-facebook.svg" alt="logotipo banorte">
+                </picture>
+        </div>
+    </footer>
+</body>
+</html>
